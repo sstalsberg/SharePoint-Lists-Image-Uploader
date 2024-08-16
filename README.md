@@ -3,9 +3,9 @@ A PowerShell script to upload images to a SharePoint Online list item and set th
 
 ## Prerequisites
 PowerShell: Ensure you have PowerShell installed on your machine.
-'''
+```
 Install-Module -Name PnP.PowerShell
-'''
+```
 
 ## Script Description
 The script performs the following tasks:
@@ -18,4 +18,6 @@ The script performs the following tasks:
 Download and modify the script with your SharePoint site address, SharePoint Lists name and path to local image file.
 
 Run the Script with
+```
 ./path/to/your/SPListsUploadImage.ps1
+```
